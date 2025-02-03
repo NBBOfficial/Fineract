@@ -29,7 +29,7 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: skdcnwauicn2ucnaecasdsajdnizucawencascdca
     healthcheck:
-      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost", "--password=skdcnwauicn2ucnaecasdsajdnizucawencascdca" ]
+      test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost", "fineract.cashpey.in", "--password=skdcnwauicn2ucnaecasdsajdnizucawencascdca" ]
       timeout: 10s
       retries: 10
 #Remove comment for exposing the port to the host
